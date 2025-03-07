@@ -31,7 +31,7 @@ plot(k_values, wcss, type = "b", main = "Elbow Plot for k Selection",
 ```
 **Optimal k found: 3**, which aligns with the three species in the dataset.
 
->![Elbow Plot](Elbow plot.png)
+>📌 **Image is in repository**
 
 
 ### Evaluating the Best Predictors
@@ -50,7 +50,7 @@ boxplot(iris_data[, 1:4],
 - **Sepal Width was the least important predictor.**
 - Using only petal attributes resulted in higher clustering accuracy compared to using all four attributes.
 
-> 📌 **[Upload Boxplot Image Here]**
+> 📌 **Image is in repository**
 
 ### Model Comparisons
 #### Baseline Model (All Attributes)
@@ -67,7 +67,7 @@ table(pl_pw_model$cluster, iris_data$Species)
 - **Using only Petal Length & Petal Width improved accuracy.**
 - **Including Sepal Width negatively impacted clustering performance.**
 
-> 📌 **[Upload Cluster Comparison Graphs Here]**
+> 📌 **Image is in repository**
 
 ---
 
