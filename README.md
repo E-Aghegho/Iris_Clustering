@@ -31,7 +31,7 @@ plot(k_values, wcss, type = "b", main = "Elbow Plot for k Selection",
 ```
 **Optimal k found: 3**, which aligns with the three species in the dataset.
 
->![Elbow Plot]("Elbow plot.png")
+>![Elbow Plot](Elbow plot.png)
 
 
 ### Evaluating the Best Predictors
