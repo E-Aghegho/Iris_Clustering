@@ -48,7 +48,7 @@ boxplot(iris_data[, 1:4],
 #### Observations:
 - **Petal Length and Petal Width showed the most variation.**
 - **Sepal Width was the least important predictor.**
-- Using only petal attributes resulted in higher clustering accuracy compared to using all four attributes.
+- Using only petal attributes resulted in higher clustering accuracy when compared to using all four attributes.
 
 > 📌 **Image is in repository**
 
